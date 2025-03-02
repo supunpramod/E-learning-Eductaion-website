@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import pic1 from "../../assets/pic1.png"
+import {motion} from "framer-motion"
 const Hero=()=>{
     return(
         <section className="bg-light dark:bg-black overflow-hidden relative">
