@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoMdMenu } from "react-icons/io";
+import {motion} from "framer-motion"
 
 const NavbarMenu=[
 {
