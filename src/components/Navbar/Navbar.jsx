@@ -39,13 +39,26 @@ const NavbarMenu=[
 const Navbar=()=>{
   return(
    <nav>
-    <div className="container">
+    <div className="container py-10">
         {/* Logo section */}
         <div>
-            <h1>BrightMind Academy</h1>
+            <h1 className='font-bold text-2xl'>BrightMind Academy</h1>
 
         </div>
         {/* Menu section */}
+        <div className='hidden lg:block'>
+            <ul>
+                {NavbarMenu.map((menu)=>(
+                    <li key={menu.id}>
+                        <a href={menu.path}>{menu.title}</a>
+                    </li>
+                )
+                )
+
+                }
+            </ul>
+
+        </div>
         {/* Mobile Hamburger menu section */}
     </div>
    </nav>  
