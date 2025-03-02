@@ -39,8 +39,12 @@ const NavbarMenu=[
 ];
 const Navbar=()=>{
   return(
-   <nav>
-    <div className="container py-10 flex justify-between items-center">
+   <nav className='relative z-20'>
+    <motion.div
+    initial={{opacity:0,y:-50}}
+    animate={{opacity:1,y:0}}
+    
+    className="container py-10 flex justify-between items-center">
         {/* Logo section */}
         <div>
             <h1 className='font-bold text-2xl'>BrightMind Academy</h1>
@@ -68,7 +72,7 @@ const Navbar=()=>{
         </div>
 
 
-    </div>
+    </motion.div>
    </nav>  
   );
 };
