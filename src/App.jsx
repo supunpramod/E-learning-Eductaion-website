@@ -5,6 +5,7 @@ import Services from './components/Services/Services';
 import Banner from './components/Banner/Banner';
 import Subscribe from './components/Subscribe/subscribe';
 import Banner2 from './components/Banner/Banner2';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -19,6 +20,7 @@ const App=()=>{
      <Banner/>
      <Subscribe/>
      <Banner2/>
+     <Footer/>
      
       </main>
   );

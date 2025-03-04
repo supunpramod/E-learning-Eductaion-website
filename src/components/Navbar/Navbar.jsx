@@ -47,7 +47,7 @@ const Navbar=()=>{
     className="container py-10 flex justify-between items-center">
         {/* Logo section */}
         <div>
-            <h1 className='font-bold text-2xl'>BrightMind Academy</h1>
+            <h1 className='font-bold text-2xl'>Brightmind Academy</h1>
 
         </div>
         {/* Menu section */}
